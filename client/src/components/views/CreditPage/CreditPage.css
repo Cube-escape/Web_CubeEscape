@@ -1,0 +1,41 @@
+@import '../../App.css';
+
+.credit {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "NotoSerifKR";
+}
+
+.credit_title {
+    color: white;
+    font-size: 250%;
+    text-align: center;
+    position: relative;
+}
+
+.credit_subtitle {
+    padding-left: 130px;
+    color: gray;
+    font-size: 150%;
+    text-align: right;
+}
+
+.credit_body {
+    padding-left: 20px;
+    color: white;
+    font-size: 150%;
+    text-align: left;
+}
+
+.credit_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.credit_body a{
+    color: white;
+}
